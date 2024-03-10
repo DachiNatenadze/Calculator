@@ -33,16 +33,20 @@ Button {
   cursor: pointer;
 }
 .Buttons {
+  text-align: right;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 15px;
   padding: 15px;
 }
-.display {
+#Display {
   background-color: hsl(46, 86%, 35%);
   width: 100%;
-  padding: 30px;
+  padding: 10px;
   border: none;
+  font-size: 4em;
+  text-align: left;
+  color: azure;
 }
 Button:hover {
   background-color: hsl(52, 91%, 17%);
@@ -50,13 +54,13 @@ Button:hover {
 Button:active {
   background-color: hsl(0, 74%, 59%);
 }
-#operation {
+.operation {
   background-color: coral;
 }
-#operation:hover {
+.operation:hover {
   background-color: hsl(52, 91%, 17%);
 }
-#operation:active {
+.operation:active {
   background-color: hsl(0, 74%, 59%);
 }
 input {
