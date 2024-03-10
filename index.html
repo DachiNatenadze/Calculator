@@ -14,14 +14,10 @@
         <div class="input-output">
           <input id="Display" readonly />
           <div class="Buttons">
-            <button onclick="appendToDisplay(`/`)" class="operation">/</button>
-            <button onclick="appendToDisplay(`+`)" class="operation">+</button>
-            <button onclick="appendToDisplay(`%`)" class="operation">%</button>
-            <button onclick="appendToDisplay(`-`)" class="operation">-</button>
             <button onclick="CalculateInfo(`=`)" class="operation">=</button>
-            <button onclick="appendToDisplay(`X`)" id="operation">X</button>
-            <button onclick="appendToDisplay(`.`)" id="Dot">.</button>
             <button onclick="ClearDisplay(`C`)" class="operation">C</button>
+            <button onclick="appendToDisplay(`+`)" class="operation">+</button>
+            <button onclick="appendToDisplay(`-`)" class="operation">-</button>
             <button onclick="appendToDisplay(`1`)" id="One">1</button>
             <button onclick="appendToDisplay(`2`)" id="Two">2</button>
             <button onclick="appendToDisplay(`3`)" id="Three">3</button>
@@ -32,6 +28,10 @@
             <button onclick="appendToDisplay(`8`)" id="Eight">8</button>
             <button onclick="appendToDisplay(`9`)" id="Nine">9</button>
             <button onclick="appendToDisplay(`0`)" id="Zero">0</button>
+            <button onclick="appendToDisplay(`.`)" id="Dot">.</button>
+            <button onclick="appendToDisplay(`%`)" class="operation">%</button>
+            <button onclick="appendToDisplay(`/`)" class="operation">/</button>
+            <button onclick="appendToDisplay(`X`)" class="operation">X</button>
           </div>
         </div>
       </div>
