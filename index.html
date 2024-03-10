@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="icon" href="./image/faviocon.jpg" />
+  </head>
+  <body>
+    <main class="Calculator">
+      <div class="container">
+        <div class="input-output">
+          <input type="text" class="display" readonly />
+          <div class="Buttons">
+            <button onclick="appendToDisplay(`/`)" id="operation">/</button>
+            <button onclick="appendToDisplay(`+`)" id="operation">+</button>
+            <button onclick="appendToDisplay(`%`)" id="operation">%</button>
+            <button onclick="appendToDisplay(`-`)" id="operation">-</button>
+            <button onclick="CalculateInfo(`=`)" id="operation">=</button>
+            <button onclick="appendToDisplay(`X`)" id="operation">X</button>
+            <button onclick="appendToDisplay(`.`)" id="Dot">.</button>
+            <button onclick="ClearDisplay(`C`)" id="operation">C</button>
+            <button onclick="appendToDisplay(`1`)" id="One">1</button>
+            <button onclick="appendToDisplay(`2`)" id="Two">2</button>
+            <button onclick="appendToDisplay(`3`)" id="Three">3</button>
+            <button onclick="appendToDisplay(`4`)" id="Four">4</button>
+            <button onclick="appendToDisplay(`5`)" id="Five">5</button>
+            <button onclick="appendToDisplay(`6`)" id="Six">6</button>
+            <button onclick="appendToDisplay(`7`)" id="Seven">7</button>
+            <button onclick="appendToDisplay(`8`)" id="Eight">8</button>
+            <button onclick="appendToDisplay(`9`)" id="Nine">9</button>
+            <button onclick="appendToDisplay(`0`)" id="Zero">0</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
